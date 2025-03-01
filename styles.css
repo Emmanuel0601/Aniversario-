@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Título */
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+/* Mensaje */
+.message {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Botón */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    background: #ff4b5c;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #d00042;
+    transform: scale(1.1);
+}
